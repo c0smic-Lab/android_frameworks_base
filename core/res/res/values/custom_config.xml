@@ -113,4 +113,7 @@
     value. If this is the case, set this config to true to let the toggle provider always set
     charging enabled status regardless of the current status. -->
     <bool name="config_chargingControlToggleSetAlways">false</bool>
+
+    <!-- Whether to cancel fingerprint operation if not idle -->
+    <bool name="config_fpCancelIfNotIdle">false</bool>
 </resources>
